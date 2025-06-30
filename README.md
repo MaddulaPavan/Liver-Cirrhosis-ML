@@ -36,13 +36,6 @@ This project leverages advanced machine learning algorithms to predict liver cir
    python main.py
    ```
 
-4. **Access the web interface:**
-   Open your browser and go to [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
-
-## Usage
-- Enter the required patient data in the form fields.
-- Click "Predict" to receive a prediction (Cirrhosis or No Cirrhosis).
-
 ## Project Flow
 1. User enters patient data via the web UI.
 2. The backend loads the best-trained model and predicts the risk of cirrhosis.
@@ -52,6 +45,4 @@ This project leverages advanced machine learning algorithms to predict liver cir
 - The dataset is automatically downloaded from Kaggle using KaggleHub.
 - The model is retrained each time the script is run, ensuring the latest data and best parameters are used.
 - For best results, ensure a stable internet connection for dataset download.
-
-## License
-This project is for educational and research purposes only. 
+ 
